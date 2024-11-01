@@ -53,15 +53,9 @@ class MyArray{
 }
 
 const myNewArray=new MyArray();//creating instance of the array.
-
-myNewArray.push('I');
-myNewArray.push('Love');
-myNewArray.push('You');
-myNewArray.push('Anushka');
 // myNewArray.shift();
 myNewArray.deleteByIndex(1);
 for(let i=0;i<myNewArray.length;i++)
 {
     console.log(myNewArray.get(i));
 }
-console.log(myNewArray) 
