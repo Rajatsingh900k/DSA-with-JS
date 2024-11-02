@@ -1,0 +1,3 @@
+This folder will contain on the implementation of the two most common searching techniques i.e, Linear Search and Binary Search
+Questions on these have similar logic as we have already done in leetcode.
+so just watch how to implement them in js.
