@@ -40,4 +40,5 @@ function mergeSort(arr){
 }
 
 const arr=[23,54,11,0,6,2,34,588,1];
-console.log(mergeSort(arr));
+console.log("Array before mergeSort: ",arr);
+console.log("Array after mergeSort: ",mergeSort(arr));
