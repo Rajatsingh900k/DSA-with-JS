@@ -59,3 +59,6 @@ for(let i=0;i<myNewArray.length;i++)
 {
     console.log(myNewArray.get(i));
 }
+
+
+
