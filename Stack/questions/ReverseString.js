@@ -42,11 +42,12 @@ class Stack{
 
 }
 
+//Task Input: string="Hello World" ===> Output: Reverse_string="World Hello"
 
 const myStack = new Stack();//creating object.
 let str="Rajat Singh";
 
-let myArr=str.split("");
+let myArr=str.split(" ");
 let myArr2=[];
 for(let i=0;i<myArr.length;i++){
     myStack.push(myArr[i]);
@@ -58,5 +59,5 @@ while(!myStack.isEmpty()){
     myArr2.push(peekElement);
 }
 
-str=myArr2.join("");
+str=myArr2.join(" ");
 console.log(str);
